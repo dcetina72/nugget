@@ -1,0 +1,30 @@
+<!DOCTYPE html><!--doctype declaration-->
+<html lang="en"><!--html language will be english-->
+<head><!--opening tag for head/metadata element-->
+    <meta charset="UTF-8"><!--UTF-8 character encoding for HTML5 (only valid one)-->
+    <title>Contact Nugget 🐶</title><!--browser tab text-->
+</head><!--closing tag for metadata head element-->
+<body><!--opening body tag-->
+    <h1>Contact Nugget 📞🐶</h1><!--level 1 header-->
+    <p>Nugget can't use phone!</p><!--paragraph line-->
+    <p>Nugget has no fingers stupid!</p><!--paragraph line-->
+    <p>...</p>
+    <p>Nugget just kidding. Use form below:</p>
+    <hr>
+    <form action="mailto:dcetina72@gmail.com" method="post" enctype="text/plain"><!--the action is to mail to dcetina72@gmail.com; 
+        the method attribute tells the form to "post" everything the user inputs into their email client (i.e. a gmail letter);
+        the encoding type is plain text, so whatever is posted in the email client will not have weird symbols-->
+        <label>Your Dog's Name:</label>
+        <input type="text" name="yourDogsName" value=""><!--remember it's <input type="" name="" value="">-->
+        <br><!--line break to have a new line for label with input next to it. otherwise it will add them horizontally-->
+        <label>Your Dog's Email:</label>
+        <input type="email" name="yourDogsEmail" value="">
+        <br>
+        <label>Your Dog's Message:</label>
+        <br>
+        <textarea name="yourDogsMessage" rows="10" cols="30"></textarea><!--big text box. remember: <textarea name="" rows="" cols=""></textarea>-->
+        <br>
+        <input type="submit"><!--if you want a button at the bottom, then you gotta add an input type="submit"-->
+    </form>
+</body><!--closing body tag-->
+</html><!--closing html tag-->
